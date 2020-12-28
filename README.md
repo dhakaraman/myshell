@@ -1,8 +1,9 @@
-#Simple Shell In C
-#This is a simple shell which handles 10 commands, 5 internal and 5 external. This handles a simple command and at most two flags.
+Simple Shell In C__
 
-#INTERNAL COMMANDS
-#    1. cd command: 
+This is a simple shell which handles 10 commands, 5 internal and 5 external. This handles a simple command and at most two flags.
+
+INTERNAL COMMANDS
+    1. cd command: 
 options : cd <filename>
 	      cd
 	      cd ..
