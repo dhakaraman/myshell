@@ -1,16 +1,16 @@
-Simple Shell In C__
+Simple Shell In C <br />
 
-This is a simple shell which handles 10 commands, 5 internal and 5 external. This handles a simple command and at most two flags.
+This is a simple shell which handles 10 commands, 5 internal and 5 external. This handles a simple command and at most two flags.<br />
 
-INTERNAL COMMANDS
-    1. cd command: 
-options : cd <filename>
-	      cd
-	      cd ..
-	      cd ~
-		      cd –P <filename>
-		      cd –L <filename>
-Error handling: 1). Invalid path prompt when directories are not available.
+INTERNAL COMMANDS <br />
+    1. cd command: <br />
+		options : cd <filename> <br />
+			      cd<br />
+			      cd ..<br />
+			      cd ~<br />
+			      cd –P <filename><br />
+			      cd –L <filename><br />
+Error handling: 1). Invalid path prompt when directories are not available.<br />
 			2). Invalid option prompt when wrong flag is entered.
     2. echo command:
 options:  echo <string>
