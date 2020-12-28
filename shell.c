@@ -94,7 +94,7 @@ int main( ){
 				}
 			}
 			else if(array[2]!=NULL){
-				printf("No such option\n")
+				printf("No such option\n");
 			}
 			else{
 				int check=chdir(array[1]);
@@ -181,13 +181,13 @@ int main( ){
 		else {
 
 			if(strncmp(array[0],"ls",2)==0){
-				strcat(envp,"/ls");
+				strcat(envp,"/ls.o");
 				execv(envp,array);
 
 			}
 
 			else if(strncmp(array[0],"cat",3)==0){
-				strcat(envp,"/catto");
+				strcat(envp,"/cat.o");
 				execv(envp,array);
 			}
 
@@ -196,18 +196,18 @@ int main( ){
 					printf("rm: missing operand\n");
 				}
 				else{
-					strcat(envp,"/rem");
+					strcat(envp,"/rm.o");
 					execv(envp,array);
 				}
 			}
 
 			else if(strncmp(array[0],"date",4)==0){
-				strcat(envp,"/dato");
+				strcat(envp,"/date.o");
 				execv(envp,array);
 			}
 
 			else if(strncmp(array[0],"mkdir",5)==0){
-				strcat(envp,"/mak");
+				strcat(envp,"/mkdir.o");
 				execv(envp,array);
 			}
 			else {
